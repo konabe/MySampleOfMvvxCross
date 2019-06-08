@@ -30,9 +30,11 @@ namespace TipCalc.Core.ViewModels
             get => _subTotal;
             set
             {
-                _subTotal = value;
-                RaisePropertyChanged(() => SubTotal);
-
+                // _subTotal = value;
+                // RaisePropertyChanged(() => SubTotal);
+                // これの代わりとして、SetPropertyを使うこと
+                // 値に変化があったときのみRaisePropertyChangedを投げるようになる
+                SetProperty<Double>(ref _subTotal, value);
                 Recalculate();
             }
         }
