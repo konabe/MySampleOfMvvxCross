@@ -1,0 +1,46 @@
+﻿<Properties StartupConfiguration="{A2EA801C-A825-4F51-B4E7-BC1906AB3E74}|Default">
+  <MonoDevelop.Ide.ItemProperties.TipCalc.Droid AndroidDesignerPreferredTheme="AppTheme" AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TipCalc.Core/App.cs">
+    <Files>
+      <File FileName="TipCalc.Core/Services/ICalculationService.cs" Line="9" Column="1" />
+      <File FileName="TipCalc.Core/Services/CalculationService.cs" Line="7" Column="10" />
+      <File FileName="TipCalc.Core/ViewModels/TipViewModel.cs" Line="11" Column="1" />
+      <File FileName="TipCalc.Core/App.cs" Line="15" Column="1" />
+      <File FileName="../../.nuget/packages/mvvmcross/6.3.0/readme.txt" Line="1" Column="1" />
+      <File FileName="TipCalc.Droid/MainApplication.cs" Line="18" Column="2" />
+      <File FileName="../../.nuget/packages/mvvmcross/6.2.1/readme.txt" Line="1" Column="1" />
+      <File FileName="TipCalc.Droid/Views/TipView.cs" Line="14" Column="35" />
+      <File FileName="../../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="2303" Column="3" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TipCalc" expanded="True">
+            <Node name="TipCalc.Core" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="App.cs" selected="True" />
+            </Node>
+            <Node name="TipCalc.Droid" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="Layout" expanded="True" />
+              </Node>
+              <Node name="Views" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
