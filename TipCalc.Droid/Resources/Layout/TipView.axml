@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              xmlns:local="http://schemas.android.com/apk/res-auto"
-              android:orientation="vertical"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -16,15 +17,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Generosity" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ffff00" />
     <SeekBar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:max="100"
         local:MvxBind="Progress Generosity" />
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="#ffff00" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -33,5 +34,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         local:MvxBind="Text Tip" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Item name" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        local:MvxBind="Text Store.Item.Name, Mode=TwoWay" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        local:MvxBind="Text Store.Item.Name, Mode=TwoWay" />
+
 </LinearLayout>
 

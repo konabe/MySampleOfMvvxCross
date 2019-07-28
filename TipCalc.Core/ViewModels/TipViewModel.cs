@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 using MvvmCross.ViewModels;
+using TipCalc.Core.Models;
 using TipCalc.Core.Services;
 
 namespace TipCalc.Core.ViewModels
@@ -61,6 +62,13 @@ namespace TipCalc.Core.ViewModels
                 _tip = value;
                 RaisePropertyChanged(() => Tip);
             }
+        }
+
+        private Store _store = new Store();
+        public Store Store
+        {
+            get { return _store; }
+            set { SetProperty(ref _store, value); }
         }
 
         private void Recalculate()
